@@ -5,8 +5,8 @@
   </textbox>
   <textbox id="2" position="1050,1500,1250,1600" action="check_format" name="kingaku">金額</textbox>
   <textbox id="3" position="1750,1500,2400,1700" action="extract_text" name="billing"></textbox>
-  <textbox id="4" positoin="3100,1050,3400,1250" action="check_format"></textbox>
-  <textbox id="5" position="1000,#1.y1,3000,#1.y2" action="extract_text" name="company"></textbox>
+  <textbox id="4" positoin="3100,1050,3400,1250" action="check_format">様</textbox>
+  <textbox id="5" position="1000,#1.1,3000,#1.3" action="extract_text" name="company"></textbox>
   <table id="5" position="3500,1400,5800,2000" shape="2,2">
     <th row="0" col="0">航空券番号</th>
     <th row="1" col="0">照会番号</th>

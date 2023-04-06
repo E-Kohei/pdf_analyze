@@ -1,0 +1,71 @@
+{
+    "patterns": [
+        {
+            "type": "textbox",
+            "id": 1,
+            "position": [1000,650,1600,850],
+            "action": "check_format",
+            "name": "ryoshusho",
+            "content": "領収書"
+        },
+        {
+            "type": "textbox",
+            "id": 2,
+            "position": [1050,1500,1250,1600],
+            "action": "check_format",
+            "name": "kingaku",
+            "content": "金額"
+        },
+        {
+            "type": "textbox",
+            "id": 3,
+            "position": [1750,1500,2400,1700],
+            "action": "extract_text",
+            "name": "billing"
+        },
+        {
+            "type": "textbox",
+            "id": 4,
+            "position": [3100,1050,3400,1250],
+            "action": "check_format",
+            "content": "様"
+        },
+        {
+            "type": "textbox",
+            "id": 5,
+            "position": [1000,"#4.y1",3000,"#4.y2"],
+            "action": "extract_text",
+            "name": "company"
+        },
+        {
+            "type": "table",
+            "id": 6,
+            "position": [3500,1400,5800,2000],
+            "shape": [2,2],
+            "cells": [
+                {
+                    "type": "table-header",
+                    "row": [0],
+                    "col": [0],
+                    "content": "航空券番号"
+                },
+                {
+                    "type": "table-header",
+                    "row": [1],
+                    "col": [0],
+                    "content": "照会番号"
+                },
+                {
+                    "type": "table-data",
+                    "row": [0],
+                    "name": "ticket_number"
+                },
+                {
+                    "type": "table-data",
+                    "row": [1],
+                    "name": "reference_number"
+                }
+            ]
+        }
+    ]
+}
