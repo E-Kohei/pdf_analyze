@@ -3,7 +3,7 @@
         {
             "type": "textbox",
             "id": 1,
-            "position": [1000,650,1600,850],
+            "position": [200,120,320,180],
             "action": "check_format",
             "name": "ryoshusho",
             "content": "領収書"
@@ -11,7 +11,7 @@
         {
             "type": "textbox",
             "id": 2,
-            "position": [1050,1500,1250,1600],
+            "position": [210,300,250,330],
             "action": "check_format",
             "name": "kingaku",
             "content": "金額"
@@ -19,28 +19,28 @@
         {
             "type": "textbox",
             "id": 3,
-            "position": [1750,1500,2400,1700],
+            "position": [350,300,500,340],
             "action": "extract_text",
             "name": "billing"
         },
         {
             "type": "textbox",
             "id": 4,
-            "position": [3100,1050,3400,1250],
+            "position": [630,210,680,260],
             "action": "check_format",
             "content": "様"
         },
         {
             "type": "textbox",
             "id": 5,
-            "position": [1000,"#4.y1",3000,"#4.y2"],
+            "position": [200,"#4.y1",600,"#4.y2"],
             "action": "extract_text",
             "name": "company"
         },
         {
             "type": "table",
             "id": 6,
-            "position": [3500,1400,5800,2000],
+            "position": [700,280,1160,400],
             "shape": [2,2],
             "cells": [
                 {
